@@ -30,12 +30,10 @@ This project is a Laravel-based application designed to manage and handle forms.
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone git@github.com:sashokrist/create-form-from-json.git
 
-   Install dependencies:
-
-
+  Install dependencies:
+  
 composer install
 npm install
 Configure the .env file:
