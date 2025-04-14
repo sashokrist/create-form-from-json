@@ -1,0 +1,9 @@
+{
+    "name": "Booking Request",
+    "action": "/forms/booking",
+    "table": "booking_submissions",
+    "fields": [
+        { "name": "customer", "label": "Customer Name", "type": "text", "validation": "required" },
+        { "name": "date", "label": "Booking Date", "type": "date", "validation": "required|date" }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Contact Form",
+    "action": "/forms/contact",
+    "table": "contact_submissions",
+    "fields": [
+        { "name": "name", "label": "Name", "type": "text", "validation": "required" },
+        { "name": "email", "label": "Email", "type": "email", "validation": "required|email" }
+    ]
+}
