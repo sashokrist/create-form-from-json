@@ -1,0 +1,18 @@
+{
+    "action": "/forms/login",
+    "table": "users",
+    "fields": [
+        {
+            "name": "email",
+            "label": "Email Address",
+            "type": "email",
+            "validation": "required|email|exists:users,email"
+        },
+        {
+            "name": "password",
+            "label": "Password",
+            "type": "password",
+            "validation": "required|string|min:8"
+        }
+    ]
+}
